@@ -1,4 +1,4 @@
-# validacaoduplalaravel
+# validacaolaravel
 
 Ola pessoal,
 Este Projeto é para ajudar as pessoas que busca aplicar uma validação em dados com varios campos de unicidade.
