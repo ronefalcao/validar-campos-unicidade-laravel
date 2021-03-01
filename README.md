@@ -1,7 +1,7 @@
 # validacaolaravel
 
 Ola pessoal,
-Este Projeto é para ajudar as pessoas que busca aplicar uma validação em dados com varios campos de unicidade.
+Este é um exemplo para ajudar pessoas que busca aplicar uma validação em dados com varios campos de unicidade.
 
    
         
@@ -25,3 +25,4 @@ Este Projeto é para ajudar as pessoas que busca aplicar uma validação em dado
         ];
         return Validator::make($data, $regras, $mensagens);
     
+Espero ter ajudado, abraço.
