@@ -17,7 +17,7 @@ class BairrosController extends Controller
 
     public function store(Request $request){
 
-         $validacao = $this->bairros->validacao($request->all());
+         $validacao = $this->bairros->validacao($request->all(), 0);
         if ($validacao->fails()) {
 
             $lista = $validacao->errors();
@@ -41,7 +41,7 @@ class BairrosController extends Controller
 
     public function update(Request $request, $bairro_id){
 
-        $validacao = $this->bairros->validacaoUpdate($request->all(), $bairro_id);
+        $validacao = $this->bairros->validacao($request->all(), $bairro_id);
        if ($validacao->fails()) {
 
            $lista = $validacao->errors();
