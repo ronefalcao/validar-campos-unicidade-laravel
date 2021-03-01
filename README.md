@@ -1,4 +1,4 @@
-# validacaovarioscamposunicidade
+# validação de campos com unicidade
 
 Ola pessoal,
 Este é um exemplo para ajudar pessoas que busca aplicar uma validação em dados com varios campos de unicidade.
