@@ -5,8 +5,8 @@ Este Projeto é para ajudar as pessoas que busca aplicar uma validação em dado
 
    
         
-        $inscricao = $data['bairro_nome'];
-        $cidade_id = isset($data['cidade_id']) ? $data['cidade_id'] : 0;
+        $inscricao = $data['bairro_nome'] ?? "";
+        $cidade_id =  $data['cidade_id'] ?? 0;
         $regras = [
             'bairro_nome' => ['required', Rule::unique($this->table, 'bairro_nome')
                 ->where(function ($query) use ($inscricao, $cidade_id) {
